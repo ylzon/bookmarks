@@ -93,6 +93,10 @@ kbd {font: 14px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif;}
 
 .keyboard .keygroup .special4{
   width: 434px;
+  height: 65px;  
+}
+.keyboard .keygroup .capital{
+  text-transform: uppercase;
 }
 
 .keyboard .keygroup .key:after,
