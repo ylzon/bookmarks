@@ -186,7 +186,7 @@
                             className: 'icon',
                             src: `//${links[item.key]}/favicon.ico`,
                             onerror: function (event) {
-                                event.target.src = '//i.loli.net/2017/11/10/5a05afbc5e183.png'
+                                event.target.src = '//i.loli.net/2018/11/17/5bef7fa68d063.png'
                                 console.log(event.target.src)
                             }
                         })
@@ -201,7 +201,7 @@
                         className: 'icon',
                         src: `//${links[item.key]}/favicon.ico`,
                         onerror: function (event) {
-                            event.target.src = '//i.loli.net/2017/11/10/5a05afbc5e183.png'
+                            event.target.src = '//i.loli.net/2018/11/17/5bef7fa68d063.png'
                             console.log(event.target.src)
                         }
                     })
