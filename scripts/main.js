@@ -105,10 +105,32 @@
         ]
         
         let links = {
-            q: 'www.qq.com',
-            w: 'www.weibo.com',
-            e: 'www.ele.me',
-            r: 'www.renren.com',
+            'q': 'www.qq.com',
+            'w': 'www.weibo.com',
+            'e': 'www.ele.me',
+            'r': 'rsshub.app',
+            't': 't.tt',
+            'y': 'ylzzxt.cn',
+            'u': 'rsshub.app',
+            'i': 'iqiyi.com',
+            'o': 'op.gg',
+            'p': 'www.panda.tv',
+            'a': 'apple.com',
+            's': 'sina.com.cn',
+            'd': 'douyu.com',
+            'f': 'flutter-io.cn',
+            'g': 'github.com',
+            'h': 'huya.com',
+            'j': 'www.jd.com',
+            'k': 'iqiyi.com',
+            'l': 'lpl.qq.com',
+            'z': 'zhihu.com',
+            'x': 'xiedaimala.com',
+            'c': 'cctv.com',
+            'v': 'v.qq.com',
+            'b': 'baidu.com',
+            'n': 'nodejs.org',
+            'm': 'meituan.com',
         }
         
         const linksInLocal = getLinksFromLocal('navKeys')
@@ -140,8 +162,9 @@
     
     function generateKeyBorad() {
         keys.forEach(row => {
-            let keygroups = document.createElement('div')
-            keygroups.className = 'keygroup'
+            let keygroups = createTag('div', {
+              className: 'keygroup',
+            })
             row.forEach(item => {
                 const key = createTag('kbd', {
                     className: `key ${item.class}`,
