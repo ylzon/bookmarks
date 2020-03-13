@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://bookmarks.ylzon.com/index.html">
-    <img src="https://ws3.sinaimg.cn/large/006tNbRwly1fxaty99j4jj31470krmxh.jpg">
+    <img src="http://static.ylzon.com/blog/fNSrZm.png">
   </a>
 </p>
 <h1 align="center">键盘导航</h1>
